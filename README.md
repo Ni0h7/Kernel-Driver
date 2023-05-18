@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ni0h7/Kernel-Driver-">
-    <img src="Logo/logo.png" alt="Logo" width="80" height="80">
+    <img src="Logo/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
