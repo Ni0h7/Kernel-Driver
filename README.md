@@ -29,17 +29,10 @@ The communication:
 
 This project serves as a basic example of how to create a kernel mode driver and a user mode application that interacts with it. It's a good starting point for learning about Windows driver development, but it's not intended for use in a real-world scenario without further development and testing.
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 
-Ni0h#0764 - [@Discord Server](https://discord.gg/h2rg2ctxbD)
+Ni0h#0764 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
