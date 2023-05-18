@@ -42,10 +42,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Ni0h#0764 - [@your_twitter]([https://twitter.com/your_username](https://discord.gg/h2rg2ctxbD)) - email@example.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project serves as a basic example of how to create a kernel mode driver and a user mode application that interacts with it. It's a good starting point for learning about Windows driver development, but it's not intended for use in a real-world scenario without further development and testing.
