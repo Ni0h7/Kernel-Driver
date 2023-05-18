@@ -42,7 +42,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ni0h#0764 - [@your_twitter]([https://twitter.com/your_username](https://discord.gg/h2rg2ctxbD)) - email@example.com
+Ni0h#0764 - [@Discord Server]([https://discord.gg/h2rg2ctxbD])
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
