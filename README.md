@@ -1,6 +1,27 @@
-# Kernel-Driver-
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-The driver is a simple Windows kernel mode driver that allows reading and writing to a buffer in kernel space. It provides basic functionality for interacting with a device through the Windows I/O Manager.
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
+
+This is one of my first attempts into making a kernel driver using buffer management and reading & writing.
+Communication: Interacting with a device through the Windows I/O Manager.
 
 Key features include:
 
