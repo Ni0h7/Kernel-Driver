@@ -18,13 +18,15 @@ Key features include:
 * Device Extension: It uses a device extension to store the current state of the device, including the buffer and the current read/write positions.
 
 About the user mode:
-The user mode application is a simple program that uses the Windows API to communicate with the driver. It opens a handle to the device, sends data to the device using the WriteFile function, and reads data from the device using the ReadFile function. These operations correspond to the write and read operations provided by the driver.
+* The user mode application is a simple program that uses the Windows API to communicate with the driver. 
+* It opens a handle to the device, sends data to the device using the WriteFile function, and reads data from the device using the ReadFile function. 
+* These operations correspond to the write and read operations provided by the driver.
 
 The communication:
-The communication between the user mode application and the driver is handled by the Windows I/O Manager, which forwards I/O requests from the application to the driver and returns the results back to the application.
+* The communication between the user mode application and the driver is handled by the Windows I/O Manager, which forwards I/O requests from the application to the driver and returns the results back to the application.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+* [![C++][C++]][[Next-url](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png)]
+* [![C][C]][[React-url](https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
