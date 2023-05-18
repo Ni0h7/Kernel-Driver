@@ -9,7 +9,7 @@
   </p>
 </div>
 
-This is one of my first attempts into making a kernel driver using buffer management and reading & writing.t.
+This is one of my first attempts into making a kernel driver using buffer management and reading & writing.
 
 Key features include:
 * Buffer Management: The driver maintains a buffer in kernel space where data can be written to and read from.
