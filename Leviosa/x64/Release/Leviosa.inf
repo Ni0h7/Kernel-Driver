@@ -1,0 +1,89 @@
+;
+; Leviosa.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample ; TODO: edit Class
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=Leviosa.cat
+DriverVer = 05/18/2023,15.42.34.882
+
+[DestinationDirs]
+DefaultDestDir = 12
+Leviosa_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+Leviosa.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%Leviosa.DeviceDesc%=Leviosa_Device, Root\Leviosa ; TODO: edit hw-id
+
+[Leviosa_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+Leviosa.sys
+
+;-------------- Service installation
+[Leviosa_Device.NT.Services]
+AddService = Leviosa,%SPSVCINST_ASSOCSERVICE%, Leviosa_Service_Inst
+
+; -------------- Leviosa driver install sections
+[Leviosa_Service_Inst]
+DisplayName    = %Leviosa.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\Leviosa.sys
+
+;
+;--- Leviosa_Device Coinstaller installation ------
+;
+
+[Leviosa_Device.NT.CoInstallers]
+AddReg=Leviosa_Device_CoInstaller_AddReg
+CopyFiles=Leviosa_Device_CoInstaller_CopyFiles
+
+[Leviosa_Device_CoInstaller_AddReg]
+;
+
+
+[Leviosa_Device_CoInstaller_CopyFiles]
+;
+
+
+[Leviosa_Device.NT.Wdf]
+KmdfService =  Leviosa, Leviosa_wdfsect
+[Leviosa_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "Leviosa Installation Disk"
+Leviosa.DeviceDesc = "Leviosa Device"
+Leviosa.SVCDESC = "Leviosa Service"
