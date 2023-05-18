@@ -25,9 +25,9 @@ About the user mode:
 The communication:
 * The communication between the user mode application and the driver is handled by the Windows I/O Manager, which forwards I/O requests from the application to the driver and returns the results back to the application.
 
-* [![C++][C++]][[Next-url](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png)]
-* [![C][C]][[React-url](https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png)]
+## Warning
 
+This project serves as a basic example of how to create a kernel mode driver and a user mode application that interacts with it. It's a good starting point for learning about Windows driver development, but it's not intended for use in a real-world scenario without further development and testing.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
