@@ -6,7 +6,6 @@
 
   <h3 align="center">Simple Kernel Driver</h3>
 
-  <p align="center">
   </p>
 </div>
 
