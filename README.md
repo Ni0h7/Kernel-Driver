@@ -32,7 +32,7 @@ This project serves as a basic example of how to create a kernel mode driver and
 <!-- CONTACT -->
 ## Contact
 
-Ni0h#5761 
+.ni0h 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
